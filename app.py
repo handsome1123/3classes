@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 # Load model
-model = tf.keras.models.load_model('banknote_mobilenet_model.h5')
+model = tf.keras.models.load_model('banknote_model_mobilenet.h5')
 
 # Define your class names (adjust if different)
 class_names = ['1000', '5000', '10000']
